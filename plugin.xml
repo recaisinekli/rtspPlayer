@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.recaisinekli.rtspPlayer" version="1.0.0">
+   <name>rtspPlayer</name>
+   <description>
+      RTSP player iOS plugin.
+  </description>
+
+   <js-module src="www/rtspPlayer.js" name="rtspPlayer">
+        <clobbers target="cordova.plugins.rtspPlayer" />
+    </js-module>
+
+   <platform name="ios">
+
+      <config-file parent="/*" target="config.xml">
+         <feature name="rtspPlayer">
+            <param name="ios-package" value="rtspPlayer" />
+         </feature>
+      </config-file>
+
+
+      <header-file src="src/ios/rtspPlayer.h" />
+      <source-file src="src/ios/rtspPlayer.m" />
+      <header-file src="src/ios/ViewController.h" />
+      <source-file src="src/ios/ViewController.m" />
+      <resource-file src="src/ios/Main.storyboard" />
+
+      <header-file src="src/ios/lib/include/M3U8.h" />
+      <header-file src="src/ios/lib/include/MediaPlayer.h" />
+      <header-file src="src/ios/lib/include/MediaPlayerConfig.h" />
+      <header-file src="src/ios/lib/include/Thumbnailer.h" />
+      <header-file src="src/ios/lib/include/ThumbnailerConfig.h" />
+
+      <framework src="libiconv.dylib" />
+      <framework src="libz.dylib" />
+      <framework src="libbz2.dylib" />
+      <framework src="libc++.dylib" />
+      <framework src="CoreVideo.framework" />
+      <framework src="CoreMedia.framework" />
+      <framework src="VideoToolbox.framework" />
+      <framework src="AssetsLibrary.framework" />
+      <framework src="CoreGraphics.framework" />
+      <framework src="UIKit.framework" />
+      <framework src="AVFoundation.framework" />
+      <framework src="OpenGLES.framework" />
+      <framework src="QuartzCore.framework" />
+      <framework src="MediaPlayer.framework" />
+      <framework src="CoreAudio.framework" />
+      <framework src="Accelerate.framework" />
+      <framework src="AudioToolbox.framework" />
+      <source-file framework="true" src="src/ios/lib/libMediaPlayerSDK.a" />
+
+   </platform>
+
+</plugin>

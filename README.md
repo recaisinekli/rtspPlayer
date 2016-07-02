@@ -1,6 +1,9 @@
 # RtspPlayer
 A simple cordova plugin to play rtsp on iOS thanks to VXG Video Player SDK.
 
+Streaming stops after 2 minutes since free version of VXG SDK has limitation. Please contact videoexpertsgroup for full version.
+
+This plugin is tested with Hikvision IP Camera.
 
 ## Installation
 

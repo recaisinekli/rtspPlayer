@@ -42,6 +42,7 @@
 }
 - (IBAction)closeApp:(id)sender {
     [self.origem dismissPlayer];
+    [player close];
 }
 
 - (void)didReceiveMemoryWarning {

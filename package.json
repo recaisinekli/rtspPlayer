@@ -1,8 +1,8 @@
 {
-  "name": "cordova-plugin-rtsp",
+  "name": "com.recaisinekli.rtspPlayer",
   "version": "1.0.0",
   "cordova": {
-    "id": "cordova-plugin-rtsp",
+    "id": "com.recaisinekli.rtspPlayer",
     "platforms": [
       "ios"
     ]

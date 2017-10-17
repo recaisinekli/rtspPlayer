@@ -30,10 +30,10 @@
       <header-file src="src/ios/lib/include/Thumbnailer.h" />
       <header-file src="src/ios/lib/include/ThumbnailerConfig.h" />
 
-      <framework src="libiconv.dylib" />
-      <framework src="libz.dylib" />
-      <framework src="libbz2.dylib" />
-      <framework src="libc++.dylib" />
+      <framework src="libiconv.tdb" />
+      <framework src="libz.tdb" />
+      <framework src="libbz2.tdb" />
+      <framework src="libc++.tdb" />
       <framework src="CoreVideo.framework" />
       <framework src="CoreMedia.framework" />
       <framework src="VideoToolbox.framework" />

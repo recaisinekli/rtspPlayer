@@ -1,6 +1,6 @@
 {
   "version": "1.0.1",
-  "name": "rtspPlayer-cordova-plugin",
+  "name": "com.recaisinekli.rtspPlayer",
   "cordova_name": "rtspPlayer",
   "description": "A simple cordova plugin to play rtsp on iOS thanks to VXG Video Player SDK.",
   "license": "MIT",

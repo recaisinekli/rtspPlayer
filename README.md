@@ -1,3 +1,5 @@
+# DEPRECATED
+
 # RtspPlayer
 A simple cordova plugin to play rtsp on iOS thanks to VXG Video Player SDK.
 
